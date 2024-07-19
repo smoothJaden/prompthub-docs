@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A contact list app">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Contact List</title>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="header-content">
+            <p class="contact-time">0:00</p>
+            <div class="contact-bars">
+                    <span><i class="fa-solid fa-signal"></i></span>
+                    <span><i class="fa-solid fa-wifi"></i></span>
+                    <span><i class="fa-solid fa-battery-three-quarters"></i></i></span>
+            </div>
+        </div>
+        <form action="" class="contact-form">
+            <fieldset>
+                <legend>New Contact</legend>
+            <label class="contact-label">
+                name:
+                <input type="text" name="contact-name" id="contact-name" placeholder="E.g john Doe" required>
+            </label>
+            <label class="contact-label">
+                phone:
+                <input type="number" name="contact-phone" id="contact-phone"  min="11" placeholder="E.g 2348027973372" required>
+            </label>
+            <input type="submit" class="contact-button" value="+">
+            </fieldset>
+        </form>
+        <div class="c-l-Container">
+            <h2>Friends</h2>
+            <div class="contacts">
+            </div>
+        </div>
+    </div>
+         <script src="app.js"></script>
+</body>
+</html>
